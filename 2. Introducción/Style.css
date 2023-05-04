@@ -1,0 +1,88 @@
+#título {
+    color: aqua;
+}
+/* agregar color aqua al id título */
+
+#título {
+    border: 5px solid red;/* Agrega borde al título */
+    /* dotted: crea un borde de puntos.
+    dashed: crea un borde de guiones.
+    double: crea un borde doble.
+    groove: crea un borde 3D con una apariencia tallada.
+    ridge: crea un borde 3D con una apariencia de relieve.
+    inset: crea un borde 3D con una apariencia hundida.
+    outset: crea un borde 3D con una apariencia elevada.
+    none: elimina el borde por completo */
+}
+ 
+
+#título {
+    border-style: solid; 
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+p.especial{
+    color: aquamarine;
+}
+
+div p{
+    color: blue;
+}
+
+div h2{
+    color: blueviolet;
+}
+
+div h3{
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+    /* font-size: tamañno de la fuente; */
+    /* Selector universal solo se aplica el estilo que no se ha modificado  */
+    color: black;
+}
+
+#fondo{
+    background-color: rgb(114, 15, 207);  
+    /* Solo varía la intensidad del color al agregar un cuarto elemento */
+    /* opacity: 0.4;  */
+    /* le da opacidad al elemento completo */
+    background-image: url(Zotero_icon.png); 
+    height: 800px; /* alto de la imagen de fondo */
+    /* background-size: cover; */
+    /* se ajusta al contenedor, pero la imagen puede salir del fondo  */
+    background-size: contain;
+    /* La imagen se muestra completamente */
+    /* background-size: auto;  */
+    /* Se ajusta automáticamente */
+    /* otra forma es dando las dimensiones */
+    /* background-size: 200px 200px;  */
+    background-repeat: no-repeat; 
+    /* background-repeat: repeat-x;   */
+    /* background-repeat: repeat-y; */
+    /* background-position: top; */
+    /* background-position: center; */
+    background-position:bottom;
+    /* background-position: left; */
+    /* background-position: right; */
+
+
+    /* podemos simplificar todo lo anterior de la siguiente manera: */
+   
+    /* background:rgb(49, 32, 32)  url(Zotero_icon.png) repeat-y center bottom / 500px 500px; */
+    
+    /* background-size: 600px 600px; */
+
+    /* iniciamos con color (read), 
+    después agregar imagen (url ()), 
+    despues posición (repeat-y) center bottom; 
+    / importante colocarlo
+    dimensiones  100px 100px 
+    
+    */ 
+
+}

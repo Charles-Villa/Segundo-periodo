@@ -1,0 +1,53 @@
+Estructura del cuerpo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+      <header>
+        <!-- la intención de <header> es proveer
+            información introductoria (títulos, subtítulos, logos), pero difiere con respecto a <head>
+            en su alcance. -->
+        <h1 id="Título ">Mi persona favorita</h1>
+
+    </header>
+    <nav>
+        <!-- la siguiente sección es la Barra de Navegación -->
+        <ul>
+            <li> Inicio 1</li>
+            <li> Inicio 2</li>
+            <li> Inicio 3</li>
+        </ul>
+    </nav>
+    <!-- el elemento <nav> se encuentra dentro de las etiquetas <body> pero 
+    es ubicado después de la etiqueta de cierre de la cabecera (</header>),
+    no dentro de las etiquetas <header>. Esto es porque <nav> no es parte de 
+    la cabecera sino una nueva sección. -->
+    <section>
+    <!-- La sección para Información Principal va debajo de la etiqueta de
+        cierre </nav>. -->
+        <aside>
+            <blockquote> mensaje número 1</blockquote>
+            <blockquote> mensaje número 2</blockquote>
+        </aside>
+        <!-- El elemento <aside> solo describe la información que contiene, 
+            no el lugar dentro de la estructura. -->
+        <article class="post">
+            <h2> Titulo de mi post</h2>
+            <p> Descripción del post</p>
+        </article class="post">
+            <h2> Titulo de mi post</h2>
+            <p> Descripción del post</p>
+        <article class="post">
+            <h2> Titulo de mi post</h2>
+            <p> Descripción del post</p>            
+        </article>        
+    </section>
+    <footer>
+    <!-- Recuerde que el footer nos ayuda a desplazarnos entre la página     -->
+     <a href="#Título"> Ir al comienzo de la página </a>   
+</footer>    
+</body>
+</html>
